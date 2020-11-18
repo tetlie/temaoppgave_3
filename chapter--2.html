@@ -21,25 +21,24 @@
 <body>
     <header>
         <div id="progressbar"></div>
-        <div id="menu--icon">
-        </div>
+        <div id="menu--icon">index</div>
         <nav id="menu">
             <!-- <button id="view-mode">Darkmode</button> -->
-            <div id="nav--meta"><a href="./index.html">Kapitteloversikt</a></div>
-            <div id="nav--posisjon">
+            <p>Du leser:</p><div id="nav--posisjon">
                 <div class="chapter--listing">
                     <div class="chapter--number">Kapittel 2</div>
-                    <div class="chapter--name">Hva er kunstig intelligens?</div>
+                    <div class="chapter--name"><h1>Hva er kunstig intelligens?</h1></div>
                     <div class="chapter--chapters">
-                        <a class="inmenu--link" href="#part--1">Introduksjon</a>
-                        <a class="inmenu--link" href="#part--2">«Sterk» og «svak» kunstig intelligens</a>
-                        <a class="inmenu--link" href="#part--3">Maskinlæring</a>
-                        <a class="inmenu--link" href="#part--4">Hva er algoritmenes «sorte boks»?</a>
-                        <a class="inmenu--link" href="#part--5">Regelbaserte systemer for automatisering</a>
-                        <a class="inmenu--link" href="#part--6">Fordomsfulle KI-systemer?</a>
-                        <a class="inmenu--link" href="#part--7">KI i likestillingens tjeneste?</a>
+                        <a href="#part--1">↪ Introduksjon</a>
+                        <a href="#part--2">↪ «Sterk» og «svak» kunstig intelligens</a>
+                        <a ref="#part--3">↪ Maskinlæring</a>
+                        <a href="#part--4">↪ Hva er algoritmenes «sorte boks»?</a>
+                        <a href="#part--5">↪ Regelbaserte systemer for automatisering</a>
+                        <a href="#part--6">↪ Fordomsfulle KI-systemer?</a>
+                        <a href="#part--7">↪ KI i likestillingens tjeneste?</a>
                     </div>
                 </div>
+                <a href="./index.html">↪ Kapitteloversikt</a>
             </div>
         </nav>
     </header>
@@ -57,7 +56,7 @@
             </div>
             <p class="p--indent">For å forstå sammenhengen mellom kjønnslikestilling og kunstig intelligens (KI), er det
                 hensiktsmessig å se nærmere på hva kunstig intelligens egentlig er.</h2>
-            <p>Det er ulike måter å definere kunstigintelligens på, og i takt med en rask teknologisk utvikling er
+            <p>Det er ulike måter å definere kunstig intelligens på, og i takt med en rask teknologisk utvikling er
                 definisjonene også i endring. Kort sagt er KI en samlebetegnelse på metoder for utførelse av oppgaver
                 som krever intelligens, der intelligens avgrenses til kompleks problemløsing. Det finnes mange
                 tilnærminger til KI. Det kan dreie seg om simulering av menneskelig intelligens innenfor et IT-system,
@@ -75,8 +74,7 @@
                 tolkning og behandling av strukturerte eller ustrukturerte data, i den hensikt å oppnå et gitt mål.
                 Enkelte KI-systemer kan også tilpasse seg gjennom å analysere og ta hensyn til hvordan tidligere
                 handlinger har påvirket omgivelsene». <span class="footnote--inline">2</span></p>
-            <p>I forbindelse med kunstig intelligens hører vi ofte om algoritmer. Algoritmer er matematiske form- ler
-                som kan ses som en oppskrift eller en instruksjon for hva programmer skal gjøre – for eksem- pel å
+            <p>I forbindelse med kunstig intelligens hører vi ofte om algoritmer. Algoritmer er matematiske formler
                 sortere store mengder data ut fra bestemte kriterier. Et sentralt element er hvordan bestemte algoritmer
                 i KI-systemer er utviklet med evne til å «lære» selv, forbedre seg og se og tilpasse seg mønstre basert
                 på tidligere erfaringer. Slike læren- de systemer defineres som maskinlæring, og er en del av KI. EUs
@@ -101,7 +99,7 @@
                 oppgaver uten kontinuerlig vei- ledning fra mennesker, og adaptivitet, evnen til å forbedre operasjoner
                 ved å lære av erfaringer. Kunstig intelligens består altså av flere ulike teknikker og metoder som
                 varierer med hensyn til kompleksitet og hvor teknisk avanserte de er, men alle regnes som svak eller
-                smal kunstig intelligens (se faktaboks neste side).</p>
+                smal kunstig intelligens (se faktaboks).</p>
             <div class="infobox" id="infobox--1">
                 <h3 class="infobox--header">To typer kunstig intelligens</h3>
                 <div class="infobox--info" id="infobox--1--info">
@@ -320,54 +318,78 @@
 
         <div id="footnote--list">
             <ul>
-                <li class="footnote" id="fn--1">Andreasson og Stende 2019: 11; Tørresen 2013: 14</li>
-                <li class="footnote" id="fn--2">Kommunal- og moderniseringsdepartementet, KMD 2020: 9</li>
-                <li class="footnote" id="fn--3">Kommunal- og moderniseringsdepartementet, KMD 2020: 10</li>
-                <li class="footnote" id="fn--4">Russel og Norvig 2010: 1034</li>
-                <li class="footnote" id="fn--5">Kommunal- og moderniseringsdepartementet, KMD 2020: 9</li>
-                <li class="footnote" id="fn--6">Andreasson og Stende 2019: 11; Teknologirådet 2018</li>
-                <li class="footnote" id="fn--7">Tørresen 2013</li>
-                <li class="footnote" id="fn--8">Teknologirådet 2018: 16</li>
-                <li class="footnote" id="fn--9">Tørresen 2013: 14</li>
-                <li class="footnote" id="fn--10">Teknologirådet 2018: 22</li>
-                <li class="footnote" id="fn--11">Esteva et al. 2017</li>
-                <li class="footnote" id="fn--12">Teknologirådet 2018:9</li>
-                <li class="footnote" id="fn--13">Teknologirådet 2018: 17</li>
-                <li class="footnote" id="fn--14">KMD 2020: 12</li>
-                <li class="footnote" id="fn--15">Datatilsynet 2018: 26</li>
-                <li class="footnote" id="fn--16">KMD 2020: 11</li>
-                <li class="footnote" id="fn--17">KMD 2020: 10</li>
-                <li class="footnote" id="fn--18">Teknologirådet 2018: 17</li>
-                <li class="footnote" id="fn--19">KMD 2020: 11</li>
-                <li class="footnote" id="fn--20">Teknologirådet 2018: 16</li>
-                <li class="footnote" id="fn--21">KMD 2020: 57</li>
-                <li class="footnote" id="fn--22">Teknologirådet 2018: 10</li>
-                <li class="footnote" id="fn--23">World Economic Forum 2018: 8</li>
-                <li class="footnote" id="fn--24">European Institute for Gender Equality, EIGE, 2018</li>
-                <li class="footnote" id="fn--25">Corneliussen og Prøitz 2016</li>
-                <li class="footnote" id="fn--26">Crawford (2016)</li>
-                <li class="footnote" id="fn--27">West, Whittaker og Crawford (2019)</li>
-                <li class="footnote" id="fn--28">West et al. 2019: 5</li>
-                <li class="footnote" id="fn--29">D’Ignazio og Klein 2020; Leavy; 2018; Adam 1995</li>
-                <li class="footnote" id="fn--30">Guldbrandsen 2017; Teknologirådet 2019: 49</li>
-                <li class="footnote" id="fn--31">EU-kommisjonen 2020: 6</li>
-                <li class="footnote" id="fn--32">Cuthbers- ton et al. 2019</li>
-                <li class="footnote" id="fn--33">Woodford 2020</li>
+                <li class="footnote" id="1">Andreasson og Stende 2019: 11; Tørresen 2013: 14</li>
+                <li class="footnote" id="2">Kommunal- og moderniseringsdepartementet, KMD 2020: 9</li>
+                <li class="footnote" id="3">Kommunal- og moderniseringsdepartementet, KMD 2020: 10</li>
+                <li class="footnote" id="4">Russel og Norvig 2010: 1034</li>
+                <li class="footnote" id="5"></li>Kommunal- og moderniseringsdepartementet, KMD 2020: 9</li>
+                <li class="footnote" id="6">Andreasson og Stende 2019: 11; Teknologirådet 2018</li>
+                <li class="footnote" id="7">Tørresen 2013</li>
+                <li class="footnote" id="8">Teknologirådet 2018: 16</li>
+                <li class="footnote" id="9">Tørresen 2013: 14</li>
+                <li class="footnote" id="10">Teknologirådet 2018: 22</li>
+                <li class="footnote" id="11">Esteva et al. 2017</li>
+                <li class="footnote" id="12">Teknologirådet 2018:9</li>
+                <li class="footnote" id="13">Teknologirådet 2018: 17</li>
+                <li class="footnote" id="14">KMD 2020: 12</li>
+                <li class="footnote" id="15">Datatilsynet 2018: 26</li>
+                <li class="footnote" id="16">KMD 2020: 11</li>
+                <li class="footnote" id="17">KMD 2020: 10</li>
+                <li class="footnote" id="18">Teknologirådet 2018: 17</li>
+                <li class="footnote" id="19">KMD 2020: 11</li>
+                <li class="footnote" id="20">Teknologirådet 2018: 16</li>
+                <li class="footnote" id="21">KMD 2020: 57</li>
+                <li class="footnote" id="22">Teknologirådet 2018: 10</li>
+                <li class="footnote" id="23">World Economic Forum 2018: 8</li>
+                <li class="footnote" id="24">European Institute for Gender Equality, EIGE, 2018</li>
+                <li class="footnote" id="25">Corneliussen og Prøitz 2016</li>
+                <li class="footnote" id="26">Crawford (2016)</li>
+                <li class="footnote" id="27">West, Whittaker og Crawford (2019)</li>
+                <li class="footnote" id="28">West et al. 2019: 5</li>
+                <li class="footnote" id="29">D’Ignazio og Klein 2020; Leavy; 2018; Adam 1995</li>
+                <li class="footnote" id="30">Guldbrandsen 2017; Teknologirådet 2019: 49</li>
+                <li class="footnote" id="31">EU-kommisjonen 2020: 6</li>
+                <li class="footnote" id="32">Cuthbers- ton et al. 2019</li>
+                <li class="footnote" id="33">Woodford 2020</li>
             </ul>
         </div>
 
-        <h2 class="title title--half">Les videre</h2>
+        <a href="./index.html"><div class="title title--half"><h2>Les videre</h2></div></a>
+        <a href="./index.html">↪ Kapitteloversikt</a>
 
         <section class="chapters">
-            <div class="chapter--listing">
+            <a href="./chapter--2.html" class="chapter--listing">
                 <div class="chapter--number">Kapittel 3</div>
-                <div class="chapter--name">Metode og datagrunnlag</div>
-                <div class="chapter--meta">
-                    <div class="chapter--author">Tove Bjørgås</div>
-                    <div class="chapter--link"><a href="./chapter--2.html">Les</a></div>
+                <div class="chapter--name"><h1>Metode og datagrunnlag</h1></div>
+                <div class="chapter--meta">↪ Les</div>
                 </div>
-            </div>
+            </a>
+            <a href="./chapter--2.html" class="chapter--listing">
+                <div class="chapter--number">Kapittel 4</div>
+                <div class="chapter--name"><h1>Tjenester</h1></div>
+                <div class="chapter--meta">↪ Les</div>
+                </div>
+            </a>
+            <a href="./chapter--2.html" class="chapter--listing">
+                <div class="chapter--number">Kapittel 5</div>
+                <div class="chapter--name"><h1>Arbeidsliv</h1></div>
+                <div class="chapter--meta">↪ Les</div>
+                </div>
+            </a>
+            <a href="./chapter--2.html" class="chapter--listing">
+                <div class="chapter--number">Kapittel 6</div>
+                <div class="chapter--name"><h1>Digitale sosiale plattformer og underholdning</h1></div>
+                <div class="chapter--meta">↪ Les</div>
+                </div>
+            </a>
+            <a href="./chapter--2.html" class="chapter--listing">
+                <div class="chapter--number">Kapittel 7</div>
+                <div class="chapter--name"><h1>Konklusjon</h1></div>
+                <div class="chapter--meta">↪ Les</div>
+                </div>
+            </a>
         </section>
+
 
 </body>
 

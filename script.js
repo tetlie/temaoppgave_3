@@ -19,11 +19,16 @@ let nav = document.querySelector("nav");
 let menuIsOpen = false;
 
 function visSkjulMeny() {
-    if(menuIsOpen) {
+    if (menuIsOpen) {
         nav.style.top = "-100vh";
+        menuButton.innerHTML = "index"
+        menuButton.style.color = "black"
 
     } else {
         nav.style.top = "0";
+        menuButton.innerHTML = "x"
+        menuButton.style.color = "cyan"
+
     }
     menuIsOpen = !menuIsOpen;
 }
@@ -64,7 +69,7 @@ let fnIsOpen = false;
 
 function visSkjulFootnote(e) {
 
-    if(fnIsOpen) {
+    if (fnIsOpen) {
         fnDiv.style.bottom = "-100vh";
     } else {
         fnDiv.style.bottom = "0";
@@ -73,8 +78,11 @@ function visSkjulFootnote(e) {
     fnIsOpen = !fnIsOpen;
 
     footnotes.forEach(footnote => {
-        if(footnote.id.includes(e.target.innerHTML)) {
-        footnote.style.display = "contents";}
+        if (footnote.id == e.target.innerHTML) {
+            footnote.style.display = "contents";
+        } else {
+            footnote.style.display = "none";
+        }
     });
 }
 
@@ -89,7 +97,7 @@ let ibDiv1 = document.querySelector("#infobox--1--info");
 let ib1IsOpen = false;
 
 function visSkjulInfoBox1(e) {
-    if(ib1IsOpen) {
+    if (ib1IsOpen) {
         ibDiv1.style.display = "contents";
     } else {
         ibDiv1.style.display = "none";
@@ -108,7 +116,7 @@ let ibDiv2 = document.querySelector("#infobox--2--info");
 let ib2IsOpen = false;
 
 function visSkjulInfoBox2(e) {
-    if(ib2IsOpen) {
+    if (ib2IsOpen) {
         ibDiv2.style.display = "contents";
     } else {
         ibDiv2.style.display = "none";
@@ -126,7 +134,7 @@ let ibDiv3 = document.querySelector("#infobox--3--info");
 let ib3IsOpen = false;
 
 function visSkjulInfoBox3(e) {
-    if(ib3IsOpen) {
+    if (ib3IsOpen) {
         ibDiv3.style.display = "contents";
     } else {
         ibDiv3.style.display = "none";

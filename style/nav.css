@@ -11,17 +11,22 @@
 }
 
 #menu--icon {
-    top: 1rem;
-    left: 1rem;
+    top: 2rem;
+    left: 2rem;
     z-index: 6;
     cursor: pointer;    
     position: fixed;
     border: 2px solid #ff0000;
     background-color: #ff0000;
+    color: black;
     height: 4rem;
-    width: 4rem;
-    border-radius: 50%;
+    min-width: 4rem;
+    padding: 0.5em;
+    border-radius: 1rem;
     transition: 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #menu--icon:hover {
@@ -31,11 +36,10 @@
 /*NAV--MENU*/
 
 nav {
-    background-color: white;
+    background-color: cyan;
     color: blue;
     height: 100%;  
     width: 100%;
-    padding: 2rem;
     text-align: center;
 
     display: grid;
@@ -46,31 +50,10 @@ nav {
     
     position: fixed;
     top: -100vh;
-    left:0;
+    left: 0;
     
     z-index: 5;
     transition: top 0.1s ease;  
-}
-
-#nav--meta {
-    width: 90%;
-    display: grid;
-    grid-template-columns: 1fr;
-    border: 2px solid blue;
-    align-items: center;
-    justify-content: center;
-}
-
-#nav--posisjon {
-    display: grid;
-    align-items: center;
-    justify-content: center;
-}
-
-#nav--navigasjon {
-    display: grid;
-    align-items: center;
-    justify-content: center;
 }
 
 nav a {
@@ -82,4 +65,19 @@ nav a {
 nav a:hover {
     color: blue;
     transform: scale(1.01);
+}
+
+.chapter--chapters {
+    text-align: center;
+    display: grid;
+}
+
+.chapter--chapters a {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
 }
