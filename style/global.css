@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+#footnotes--list::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+body {
+    font-family: 'Space Grotesk', 'Archivo', sans-serif;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1.75rem;
+    line-height: 1.4;
+    letter-spacing: normal;
+    min-height: 100vh;
+    max-width: 100vw;
+    color:  white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+main {
+    width: 100%;
+    max-width: 1200px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#body--frontpage {
+    background-color:white;
+    color: black;
+}
+
+/* TEXT */
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 3.75rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3.25rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.75rem;
+}
+
+h1, h2, h3, p {
+    padding: 2rem 0rem 2rem 0rem;
+}
+
+.p--indent {
+    font-weight: 700;
+}

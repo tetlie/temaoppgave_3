@@ -1,0 +1,59 @@
+.title {
+    display: flex;
+    text-align: center;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: cyan;
+    
+}
+
+.title--full {
+    width: 100%;
+    height: 100vh;
+    /* background-color: cyan;
+    margin: -2rem; */
+}
+
+.title--half {
+    height: 50vh;
+}
+
+.illustration {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* INFOBOX */
+
+.infobox {
+    margin: 4rem 2rem;
+    cursor: pointer;    
+    margin-bottom: 2rem;
+    background-color:blue;
+    color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.1s;
+}
+
+.infobox:hover {
+    transform: scale(1.01) ;
+}
+
+.infobox--header {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.infobox--info {
+    display: none;
+    text-align: left;
+    transition: 0.1s;
+}

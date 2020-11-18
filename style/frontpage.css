@@ -1,0 +1,44 @@
+.chapters {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.chapter--listing {
+    margin: 2rem;
+    justify-self: center;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 2px solid blue;
+    text-align: center;
+}
+.chapter--number {
+    padding: 1rem;
+    border-bottom: 2px solid blue;
+}
+.chapter--name {
+    font-size: 3.25rem;
+    padding: 1rem;
+    border-bottom: 2px solid blue;
+}
+.chapter--meta {
+    width: 90%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.chapter--chapters {
+    padding: 1rem;
+    text-align: left;
+    display: grid;
+    gap: 1rem;
+}
+.chapter--author {
+    padding: 1rem;
+    border-right: 2px solid blue;
+}
+.chapter--link {
+    padding: 1rem;
+}
