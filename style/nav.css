@@ -16,8 +16,8 @@
     z-index: 6;
     cursor: pointer;    
     position: fixed;
-    border: 2px solid #ff0000;
-    background-color: #ff0000;
+    border: 2px solid black;
+    background-color: #ff073a;
     color: black;
     height: 4rem;
     min-width: 4rem;
@@ -36,8 +36,8 @@
 /*NAV--MENU*/
 
 nav {
-    background-color: cyan;
-    color: blue;
+    background-color: #d5e250;
+    color: black;
     height: 100%;  
     width: 100%;
     text-align: center;
@@ -58,12 +58,11 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: blue;
+    color: black;
     transition: 0.5s;
 }
 
 nav a:hover {
-    color: blue;
     transform: scale(1.01);
 }
 

@@ -2,36 +2,43 @@
     cursor: pointer;
     bottom: -100vh;
     z-index: 2;
-    padding: 2em;
     position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-    background-color: magenta;
+    left: 2rem;
+    right: 2rem;
+    padding: 2rem;
+    border-radius: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color:  #ca7b80;
+    border: 2px solid black;
     color: black;
     width: 100%;
     max-width: 800px;
-    overflow-x: scroll;
+
     transition: bottom 0.2s ease;  
 }
 
 
 .footnote--inline {
     cursor: pointer;
-    border: 2px solid magenta;
+    border: 2px solid #ff073a;
     background-color: none;
     padding: 0.030em 0.40em;
     border-radius: 0.75em;
     transition: 0.2s;
-    color: magenta;
+    color: #ff073a;
     text-decoration: none;
     font-size: 0.75em;
 }
 
 .footnote--inline:hover {
-    background-color: magenta;
-    color: white;
+    background-color: #ff073a;
+    color: black;
 }
 
 .footnote {

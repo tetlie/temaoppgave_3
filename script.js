@@ -27,7 +27,7 @@ function visSkjulMeny() {
     } else {
         nav.style.top = "0";
         menuButton.innerHTML = "x"
-        menuButton.style.color = "cyan"
+        menuButton.style.color = "black"
 
     }
     menuIsOpen = !menuIsOpen;
@@ -72,7 +72,7 @@ function visSkjulFootnote(e) {
     if (fnIsOpen) {
         fnDiv.style.bottom = "-100vh";
     } else {
-        fnDiv.style.bottom = "0";
+        fnDiv.style.bottom = "2rem";
     }
 
     fnIsOpen = !fnIsOpen;

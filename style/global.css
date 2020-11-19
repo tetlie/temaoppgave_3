@@ -6,6 +6,15 @@
 
 }
 
+/*
+grey #d9d9db
+yellow #d5e250
+pink #b47e86
+red #db4030
+brown #94713b
+
+*/
+
 html {
     font-size: 62.5%;
 }
@@ -22,20 +31,19 @@ html::-webkit-scrollbar {
   }
 
 body {
-    font-family: 'Space Grotesk', 'Archivo', sans-serif;
-    font-weight: 500;
+    font-family: Helvetica, 'Space Grotesk', 'Archivo', sans-serif;
+    font-weight: 600;
     -webkit-font-smoothing: antialiased;
     font-size: 1.75rem;
     line-height: 1.4;
     letter-spacing: normal;
     min-height: 100vh;
     max-width: 100vw;
-    color:  white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background-color: #d9d9db;
 }
 
 main {
@@ -44,11 +52,12 @@ main {
     padding: 2rem;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
 #body--frontpage {
-    background-color:white;
+    background-color:#94713b;
     color: black;
 }
 
@@ -80,5 +89,5 @@ h1, h2, h3, p {
 }
 
 .p--indent {
-    font-weight: 700;
+    font-size: 3.25rem;
 }

@@ -15,7 +15,7 @@
     stroke-dasharray: 160px;
     stroke-dashoffset: 170px;
     animation: lineanim 3s ease-in-out 0.1s infinite alternate;
-    stroke: white;
+    stroke: black;
 }
 @keyframes lineanim{
     to {
