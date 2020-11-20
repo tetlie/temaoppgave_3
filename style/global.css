@@ -12,11 +12,16 @@ yellow #d5e250
 pink #b47e86
 red #db4030
 brown #94713b
-
 */
 
 html {
     font-size: 62.5%;
+}
+
+@media only screen and (min-width: 600px)  {
+    html {
+        font-size: 82.5%;
+    }
 }
 
 html::-webkit-scrollbar {
@@ -89,5 +94,5 @@ h1, h2, h3, p {
 }
 
 .p--indent {
-    font-size: 3.25rem;
+    font-size: 2.75rem;
 }

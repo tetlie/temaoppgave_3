@@ -3,11 +3,9 @@
 const progressBar = document.querySelector("#progressbar")
 let totalHeight = document.body.scrollHeight - window.innerHeight;
 
-window.onscroll
-
 window.addEventListener("scroll", () => {
     let progress = (window.pageYOffset / totalHeight) * 100;
-    progressBar.style.height = `${Math.ceil(progress)}%`
+    progressBar.style.width = `${progress}%`
 });
 
 // -------- MENU
@@ -20,7 +18,7 @@ let menuIsOpen = false;
 
 function visSkjulMeny() {
     if (menuIsOpen) {
-        nav.style.top = "-100vh";
+        nav.style.top = "-150vh";
         menuButton.innerHTML = "index"
         menuButton.style.color = "black"
 
@@ -35,29 +33,6 @@ function visSkjulMeny() {
 
 menuButton.addEventListener("click", visSkjulMeny);
 inMenuLink.forEach(link => link.addEventListener('click', visSkjulMeny));
-
-// -------- VIEWMODE
-
-// const viewModeBtn = document.querySelector("#view-mode");
-
-// let viewModeIsClicked = false;
-
-// function changeViewMode() {
-//     if(viewModeIsClicked) {
-//         document.querySelector("body").style.backgroundColor = "black";
-//         document.querySelector("nav").style.backgroundColor = "black";
-//         document.querySelector("body").style.backgroundColor = "white";
-//     } else {
-//         document.querySelector("body").style.backgroundColor = "#ff0000";
-//         document.querySelector("nav").style.backgroundColor = "#ff0000";
-//         document.querySelector("body").style.color = "black";
-//     }
-//     viewModeIsClicked = !viewModeIsClicked;
-//     visSkjulMeny();
-// }
-
-// viewModeBtn.addEventListener("click", changeViewMode);
-
 
 // -------- FOOTNOTES
 
@@ -143,6 +118,3 @@ function visSkjulInfoBox3(e) {
 }
 
 ibBtn3.addEventListener('click', visSkjulInfoBox3);
-
-
-

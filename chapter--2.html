@@ -21,7 +21,7 @@
 <body>
     <header>
         <div id="progressbar"></div>
-        <div id="menu--icon">index</div>
+        <div tabindex="1" id="menu--icon">index</div>
         <nav id="menu">
             <!-- <button id="view-mode">Darkmode</button> -->
             <p>Du leser:</p><div id="nav--posisjon">
@@ -29,23 +29,23 @@
                     <div class="chapter--number">Kapittel 2</div>
                     <div class="chapter--name"><h1>Hva er kunstig intelligens?</h1></div>
                     <div class="chapter--chapters">
-                        <a class="inmenu--link" href="#part--1">↪ Introduksjon</a>
-                        <a class="inmenu--link" href="#part--2">↪ «Sterk» og «svak» kunstig intelligens</a>
-                        <a class="inmenu--link" href="#part--3">↪ Maskinlæring</a>
-                        <a class="inmenu--link" href="#part--4">↪ Hva er algoritmenes «sorte boks»?</a>
-                        <a class="inmenu--link" href="#part--5">↪ Regelbaserte systemer for automatisering</a>
-                        <a class="inmenu--link" href="#part--6">↪ Fordomsfulle KI-systemer?</a>
-                        <a class="inmenu--link" href="#part--7">↪ KI i likestillingens tjeneste?</a>
+                        <a class="inmenu--link" href="#part--1">→ Introduksjon</a>
+                        <a class="inmenu--link" href="#part--2">→ Sterk og svak kunstig intelligens</a>
+                        <a class="inmenu--link" href="#part--3">→ Maskinlæring</a>
+                        <a class="inmenu--link" href="#part--4">→ Hva er algoritmenes sorte boks?</a>
+                        <a class="inmenu--link" href="#part--5">→ Regelbaserte systemer for automatisering</a>
+                        <a class="inmenu--link" href="#part--6">→ Fordomsfulle KI-systemer?</a>
+                        <a class="inmenu--link" href="#part--7">→ KI i likestillingens tjeneste?</a>
                     </div>
                 </div>
-                <a href="./index.html">↪ Kapitteloversikt</a>
+                <a href="./index.html">→ Kapitteloversikt</a>
             </div>
         </nav>
     </header>
     <main>
 
         <article id="part--1">
-            <div class="title title--full"><h1 class="title--anim">Kapittel 2<br>Hva er kunstig intelligens?</h1></div>
+            <div class="title title--full"><h1 tabindex="2" class="title--anim">Kapittel 2<br>Hva er kunstig intelligens?</h1></div>
             <div class="illustration">
                 <svg id="neuralnet" width="263" height="482" viewBox="0 0 263 482" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
@@ -77,15 +77,15 @@
             <p>I forbindelse med kunstig intelligens hører vi ofte om algoritmer. Algoritmer er matematiske formler
                 sortere store mengder data ut fra bestemte kriterier. Et sentralt element er hvordan bestemte algoritmer
                 i KI-systemer er utviklet med evne til å «lære» selv, forbedre seg og se og tilpasse seg mønstre basert
-                på tidligere erfaringer. Slike læren- de systemer defineres som maskinlæring, og er en del av KI. EUs
+                på tidligere erfaringer. Slike lærende systemer defineres som maskinlæring, og er en del av KI. EUs
                 definisjon av kunstig intelligens inkluderer maskinlæringsteknikker med ulik grad av kompleksitet
                 (inkludert framtredende algoritmer som hjerneinspirerte nevrale nettverk), men også andre og mindre
                 tekniske regelbaserte systemer. Denne definisjonen av KI kan dermed ses som en samlebetegnelse. Vi
                 legger denne definisjonen til grunn i denne kunnskapsoppsummeringen.</p>
         </article>
 
-        <article id="part--2">
-            <div class="title title--half"><h2 class="title--anim">«Sterk» og «svak» kunstig intelligens</h2></div>
+        <article  id="part--2">
+            <div class="title title--half"><h2 tabindex="3" class="title--anim">Sterk og svak kunstig intelligens</h2></div>
             <p>Det er vanlig å skille mellom «sterk» og «svak» kunstig intelligens. Såkalt sterk kunstig intelligens
                 viser til datasystemer som er intelligente og som har en form for selvbevissthet. Slike systemer finnes
                 ikke i dag, og alle KI-systemer som er tatt i bruk er basert på det som kalles «svak» kunstig
@@ -100,7 +100,7 @@
                 ved å lære av erfaringer. Kunstig intelligens består altså av flere ulike teknikker og metoder som
                 varierer med hensyn til kompleksitet og hvor teknisk avanserte de er, men alle regnes som svak eller
                 smal kunstig intelligens (se faktaboks).</p>
-            <div class="infobox" id="infobox--1">
+            <div tabindex="3.1" class="infobox" id="infobox--1">
                 <h3 class="infobox--header">To typer kunstig intelligens</h3>
                 <div class="infobox--info" id="infobox--1--info">
                     <h4>Sterk og svak kunstig intelligens</h4>
@@ -126,7 +126,7 @@
         </article>
 
         <article id="part--3">
-            <div class="title title--half"><h2 class="title--anim">Maskinlæring</h2></div>
+            <div class="title title--half"><h2 tabindex="4" class="title--anim">Maskinlæring</h2></div>
             <p>De teknikkene innen KI i dag som handler om å utvikle systemer som kan lære, tilhører det som kalles
                 maskinlæring. Det er på dette området de store framskrittene innen kunstig intelligens gjøres i dag, og
                 det er ofte disse teknikkene det henvises til når man snakker om KI. <span
@@ -144,7 +144,7 @@
                 forstås som selvlærende systemer. <span class="footnote--inline">9</span> Maskinlæringsalgoritmer kan
                 lære på ulike måter
                 (se faktaboks). Teknikken som så langt har vist seg å være mest suksessrik er såkalt veiledet læring. <span class="footnote--inline">10</span></p>
-            <div class="infobox" id="infobox--2">
+            <div tabindex="4.1" class="infobox" id="infobox--2">
                 <h3 class="infobox--header">Hvordan kan maskiner lære?</h3>
                 <div class="infobox--info" id="infobox--2--info">
                     <p>Maskiner kan lære på mange forskjellige måter. De tre vanligste er:</p>
@@ -200,7 +200,7 @@
         </article>
 
         <article id="part--4">
-            <div class="title title--half"><h2 class="title--anim">Hva er algoritmenes «sorte boks»?</h2></div>
+            <div class="title title--half"><h2 tabindex="5" class="title--anim">Hva er algoritmenes sorte boks?</h2></div>
             <p>En utfordring med kunstig intelligens er at enkelte maskinlæringsalgoritmer kan sammenliknes med en
                 «sort boks». <span class="footnote--inline">14</span> Sort boks er en metafor for å
                 beskrive problemet om manglende innsyn og
@@ -219,8 +219,8 @@
                 utfordringen ligger i hvordan kjønn har betydning.</p>
         </article>
 
-        <article id="part--5">
-            <div class="title title--half"><h2 class="title--anim">Regelbaserte systemer for automatisering</h2></div>
+        <article  id="part--5">
+            <div class="title title--half"><h2 tabindex="6" class="title--anim">Regelbaserte systemer for automatisering</h2></div>
             <p>Mindre teknisk avanserte datasystemer, som også inkluderes i den samlebetegnelsen for KI som vi legger
                 til grunn her, er såkalte regelbaserte systemer for automatisering. I disse systemene er det mennesker
                 som står bak reglene for hvilke operasjoner datasystemet skal foreta seg. Dette til forskjell fra
@@ -239,8 +239,8 @@
                 digital og automatisert saksbehandling. <span class="footnote--inline">19</span></p>
         </article>
 
-        <article id="part--6">
-            <div class="title title--half"><h2 class="title--anim">Fordomsfulle KI-systemer?</h2></div>
+        <article  id="part--6">
+            <div class="title title--half"><h2 tabindex="7" class="title--anim">Fordomsfulle KI-systemer?</h2></div>
             <p>Som nevnt innledningsvis finnes det flere eksempler på at kunstig intelligente systemer har vist seg å ha
                 svært uheldige konsekvenser i et likestillingsperspektiv. Det er flere årsaker til at KI-systemer kan
                 reprodusere stereotypier og fordommer, og stå i fare for å virke diskriminerende.</p>
@@ -255,7 +255,7 @@
                 grunnlaget for beslutningene til de
                 kunstig intelligente systemene, kan resultatet bli fordomsfulle og diskriminerende beslutninger. <span class="footnote--inline">22</span></p>
                 <p class="p--indent">Når utvalgsskjeve data blir grunnlaget for beslutningene til de kunstig intelligente systemene, kan resultatet bli fordomsfulle og diskriminerende beslutninger.</p>
-            <div class="infobox" id="infobox--3">
+            <div tabindex="7.1" class="infobox" id="infobox--3">
                 <h3 class="infobox--header">Hvem var Tay?</h3>
                 <div class="infobox--info" id="infobox--3--info">
                     <p>I 2016 lanserte Microsoft chatboten Tay på Twitter. Tay var bygget på et KI-system som skulle
@@ -296,7 +296,7 @@
         </article>
 
         <article id="part--7">
-            <div class="title title--half"><h2 class="title--anim">KI i likestillingens tjeneste?</h2></div>
+            <div class="title title--half"><h2 tabindex="8" class="title--anim">KI i likestillingens tjeneste?</h2></div>
             <p>Eksemplene fra de amerikanske tech-selskape- ne og den manglende kjønnsbalansen blant de som utvikler
                 kunstig intelligens, demonstrerer at KI-baserte systemer ikke er kjønnsnøytrale. Det betyr imidlertid
                 ikke at KI-systemer uteluk- kende vil ha negativ betydning for likestillingen. I 2017 lyktes for
@@ -329,7 +329,7 @@
                 <li class="footnote" id="2">Kommunal- og moderniseringsdepartementet, KMD 2020: 9</li>
                 <li class="footnote" id="3">Kommunal- og moderniseringsdepartementet, KMD 2020: 10</li>
                 <li class="footnote" id="4">Russel og Norvig 2010: 1034</li>
-                <li class="footnote" id="5"></li>Kommunal- og moderniseringsdepartementet, KMD 2020: 9</li>
+                <li class="footnote" id="5">Kommunal- og moderniseringsdepartementet, KMD 2020: 9</li>
                 <li class="footnote" id="6">Andreasson og Stende 2019: 11; Teknologirådet 2018</li>
                 <li class="footnote" id="7">Tørresen 2013</li>
                 <li class="footnote" id="8">Teknologirådet 2018: 16</li>
@@ -363,35 +363,35 @@
 
 
 
-        <a href="./index.html"><div class="title title--half"><h2>Les videre</h2></div></a>
-        <a href="./index.html">↪ Kapitteloversikt</a>
+        <a tabindex="9" href="./index.html"><div class="title title--half"><h2>Les videre</h2></div></a>
+        <a tabindex="10" href="./index.html">↪ Kapitteloversikt</a>
 
         <section class="chapters">
-            <a href="./chapter--2.html" class="chapter--listing">
+            <a tabindex="11" href="./chapter--2.html" class="chapter--listing">
                 <div class="chapter--number">Kapittel 3</div>
                 <div class="chapter--name"><h1>Metode og datagrunnlag</h1></div>
                 <div class="chapter--meta">↪ Les</div>
                 </div>
             </a>
-            <a href="./chapter--2.html" class="chapter--listing">
+            <a tabindex="12" href="./chapter--2.html" class="chapter--listing">
                 <div class="chapter--number">Kapittel 4</div>
                 <div class="chapter--name"><h1>Tjenester</h1></div>
                 <div class="chapter--meta">↪ Les</div>
                 </div>
             </a>
-            <a href="./chapter--2.html" class="chapter--listing">
+            <a tabindex="13" href="./chapter--2.html" class="chapter--listing">
                 <div class="chapter--number">Kapittel 5</div>
                 <div class="chapter--name"><h1>Arbeidsliv</h1></div>
                 <div class="chapter--meta">↪ Les</div>
                 </div>
             </a>
-            <a href="./chapter--2.html" class="chapter--listing">
+            <a tabindex="14" href="./chapter--2.html" class="chapter--listing">
                 <div class="chapter--number">Kapittel 6</div>
                 <div class="chapter--name"><h1>Digitale sosiale plattformer og underholdning</h1></div>
                 <div class="chapter--meta">↪ Les</div>
                 </div>
             </a>
-            <a href="./chapter--2.html" class="chapter--listing">
+            <a tabindex="15" href="./chapter--2.html" class="chapter--listing">
                 <div class="chapter--number">Kapittel 7</div>
                 <div class="chapter--name"><h1>Konklusjon</h1></div>
                 <div class="chapter--meta">↪ Les</div>
