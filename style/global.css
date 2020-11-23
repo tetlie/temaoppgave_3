@@ -61,9 +61,15 @@ main {
     align-items: center;
 }
 
-#body--frontpage {
-    background-color:#94713b;
+#frontpage {
+    background-color:#b47e86;
     color: black;
+}
+
+#title--main {
+    color: #ff073a;
+    -webkit-text-stroke: 1.5px black;
+    font-size: 4.75rem;
 }
 
 /* TEXT */

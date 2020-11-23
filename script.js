@@ -118,3 +118,22 @@ function visSkjulInfoBox3(e) {
 }
 
 ibBtn3.addEventListener('click', visSkjulInfoBox3);
+
+
+// -------- INFOBOKS0
+
+let ibBtn0 = document.querySelector("#infobox--0");
+let ibDiv0 = document.querySelector("#infobox--0--info");
+
+let ib0IsOpen = false;
+
+function visSkjulInfoBox3(e) {
+    if (ib0IsOpen) {
+        ibDiv0.style.display = "contents";
+    } else {
+        ibDiv0.style.display = "none";
+    }
+    ib0IsOpen = !ib0IsOpen;
+}
+
+ibBtn0.addEventListener('click', visSkjulInfoBox3);
